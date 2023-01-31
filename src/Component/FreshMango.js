@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './Cocktail.css';
+// import './Cocktail.css';
 export default function FreshMango() {
     const [mango, setMango] = useState([])
     function fetchMango() {
