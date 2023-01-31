@@ -32,7 +32,7 @@ export default function Country() {
                             <img className="card-img-top" src={item.flags.svg} alt="Card image cap" />
                             <div className="card-body">
                                 <h5 className="card-title">{item.name.common}</h5>
-                                <h4>{}</h4>
+                                <h4> <span>continents: </span> {item.continents}</h4>
                             </div>
                         </div>
                 
